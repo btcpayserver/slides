@@ -1,0 +1,90 @@
+/*
+@theme light
+
+Base: https://github.com/marp-team/marp-core/blob/main/themes/default.scss
+*/
+
+@import 'default';
+
+:root {
+  --btcpay-white: #ffffff;
+  --btcpay-black: #000000;
+
+  --btcpay-neutral-100: #f8f9fa;
+  --btcpay-neutral-200: #e9ecef;
+  --btcpay-neutral-300: #dee2e6;
+  --btcpay-neutral-400: #ced4da;
+  --btcpay-neutral-500: #8f979e;
+  --btcpay-neutral-600: #6c757d;
+  --btcpay-neutral-700: #495057;
+  --btcpay-neutral-800: #343a40;
+  --btcpay-neutral-900: #292929;
+
+  --color-border-light: var(--btcpay-neutral-200);
+  --color-border-medium: var(--btcpay-neutral-300);
+
+  --color-body-text: var(--btcpay-neutral-900);
+  --color-body-bg: var(--btcpay-neutral-100);
+  --color-card-bg: var(--btcpay-white);
+  --color-accent: #51b13e;
+  --color-accent-highlight: #389725;
+  --color-secondary: var(--btcpay-neutral-500);
+}
+
+section {
+  /* Marp overrides */
+  --h1-color: var(--color-accent);
+  --heading-strong-color: var(--color-accent);
+  --paginate-color: var(--color-secondary);
+  --color-border-default: var(--color-border-medium);
+
+  --color-fg-default: var(--color-body-text);
+  --color-fg-muted: var(--color-secondary);
+  --color-fg-subtle: var(--color-secondary);
+  --color-canvas-default: var(--color-body-bg);
+  --color-canvas-subtle: var(--color-card-bg);
+  --color-border-default: var(--color-border-medium);
+  --color-border-muted: var(--color-border-light);
+  --color-neutral-muted: var(--color-border-light);
+  --color-accent-fg: var(--color-accent);
+  --color-accent-emphasis: var(--color-accent);
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--color-accent);
+}
+
+a:hover {
+  color: var(--color-accent-highlight);
+}
+
+header,
+footer {
+  color: var(--color-secondary);
+  background-color: var(--color-card-bg);
+  padding: .5rem 78.5px;
+  left: 0;
+  right: 0
+}
+
+header {
+  top: 0
+}
+
+footer {
+  bottom: 0
+}
+
+pre {
+  color: var(--color-body-text);
+  background-color: var(--color-card-bg);
+  border: none;
+}
+
+img {
+  background-color: var(--color-body-bg);
+}

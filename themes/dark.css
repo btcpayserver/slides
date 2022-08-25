@@ -1,0 +1,25 @@
+/*
+@theme dark
+*/
+
+@import 'light';
+
+:root {
+  --btcpay-neutral-100: #F0F6FC;
+  --btcpay-neutral-200: #C9D1D9;
+  --btcpay-neutral-300: #B1BAC4;
+  --btcpay-neutral-400: #8B949E;
+  --btcpay-neutral-500: #6E7681;
+  --btcpay-neutral-600: #484F58;
+  --btcpay-neutral-700: #30363D;
+  --btcpay-neutral-800: #21262D;
+  --btcpay-neutral-900: #161B22;
+
+  --color-accent-highlight: #7cc46e;
+  --btcpay-neutral-950: #0D1117;
+  --color-body-text: var(--btcpay-white);
+  --color-body-bg: var(--btcpay-neutral-900);
+  --color-card-bg: var(--btcpay-neutral-950);
+  --color-border-light: var(--btcpay-neutral-800);
+  --color-border-medium: var(--btcpay-neutral-700);
+}
